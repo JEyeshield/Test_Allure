@@ -11,7 +11,7 @@ class Test_Abc:
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.step(title='第二个测试.')
     def test_abc_002(self, a):
-        allure.attach('描述', '我是测试步骤001的描述～～～')
+        allure.attach('描述', '我是测试步骤002的描述～～～')
         assert a != 2
 
 
